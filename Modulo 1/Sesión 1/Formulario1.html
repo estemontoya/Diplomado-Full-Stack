@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./plugins/css/bootstrap.min.css" >
+
+    <script src="./plugins/js/jquery.js"></script>
+    <script src="./plugins/js/bootstrap.min.js"></script>
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario basico</h1>
+    <p>Datos generales</p>
+    <img src="./img/usuario.png" alt="Imagen de usuario generica" width="400" height="300" />
+    <br /><br /><br />
+
+    <form action="formulario" target="_blank" method="post">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa aqui el Nombre" />
+
+            <label for="apellidoP">Apellido Paterno</label>
+            <input type="text" id="apellidoP" name="apellidoP" placeholder="Ingresa aqui el Paterno" />
+
+            <label for="apellidoM">Apellido Materno</label>
+            <input type="text" id="apellidoM" name="apellidoM" placeholder="Ingresa aqui el Materno" />
+            <br />
+            <br />
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingresa aqui el Correo" />
+            <br />
+            <br />
+        </div>
+        <div>
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono" name="telefono" placeholder="Ingresa aqui el Telefono" />
+            <br />
+            <br />
+        </div>
+        <br />
+        <br />
+        <button type="submit">Enviar datos</button>
+    </form>
+</body>
+
+</html>
