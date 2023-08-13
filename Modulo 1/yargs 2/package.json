@@ -12,6 +12,9 @@
   "author": "Bandido",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "inquire": "^0.4.8",
+    "inquirer": "^8.0.0",
+    "uuid": "^9.0.0"
   }
 }
